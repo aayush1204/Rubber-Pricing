@@ -1,1 +1,95 @@
 # Rubber-Pricing
+
+##TSR20
+
+XGB:
+
+MAPE-3.36
+R2-0.865
+
+Arima
+Mape:6.16
+Predictions: 1532.0728, 1532.2028, 1501.0215
+
+Sarima:
+Mape: 5.20
+Predictions: 1520.8549, 1525.357 , 1567.5209
+
+Random Forest:
+
+MAPE-3.53
+R2-0.896
+
+Arima:
+Mape: 6.83
+Predictions: 1488.22278674, 1483.52312208, 1463.33079356
+
+Sarima:
+Mape: 5.96
+Predictions: 1506.21259067, 1523.5563346 , 1605.66533973
+
+GBM:
+
+MAPE-6.035
+R2-0.675
+
+Arima:
+Mape: 3.65
+Predictions: 1686.64523118, 1671.77727709, 1539.86076343
+
+Sarima:
+Mape: 5.91
+Predictions: 1686.64523118, 1696.40641573, 1592.79619243
+
+
+Actual Values
+*   Jan 2021 - 1589.6
+*   Feb 2021 - 1770.5
+
+##RSS4
+
+XGB:
+
+MAPE-2.38
+R2-0.875
+
+Arima
+Mape:6.71
+Predictions: 2039.968 , 1976.3607, 1957.2437
+
+Sarima:
+Mape: 5.96
+Predictions: 2118.4038, 2092.2168, 2042.1659
+
+
+Random Forest:
+
+MAPE-2.799
+R2-0.90
+
+Arima:
+Mape: 5.30
+Predictions: 2055.92626663, 1995.69316367, 1996.54809873
+
+Sarima:
+Mape: 3.18
+Predictions: 2053.78035711, 2061.05133371, 2041.37255476
+
+
+GBM:
+
+MAPE-7.119
+R2-0.79
+
+Arima:
+Mape: 11.78
+Predictions: 2041.68800352, 2103.53509775, 2103.53509775
+
+Sarima:
+Mape: 5.22
+Predictions: 2123.90867107, 2128.76879084, 1983.93243591
+
+
+Actual Values
+*   Jan 2021 - 2077
+*   Feb 2021 - 2144
